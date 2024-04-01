@@ -87,26 +87,46 @@ p{
     
 
 }
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 600px) {
     .cont{
-        height: 2000px;
+        justify-content: center;
+        margin-left: auto;
+        margin-right: auto;
+        height: 3500px;
         background-color: #202C36;
         width: 100%;
     
     }
     .cardswrappwr{
+        justify-content: center;
+        margin-left: auto;
+        margin-right: auto;
+        
+        display: flex;
+        flex-direction: column;
+       
        
     }
     .boxes{
+        justify-content: center;
+        margin-left: auto;
+        margin-right: auto;
+        display: flex;
+        flex-direction: column;
+       
         
     }
     .card{
+        justify-content: center;
+        margin-left: auto;
+        margin-right: auto;
        
         width: 264px;
-        height: 336px;
+        height: 300px;
         background-color: #2B3844;
     }
     input{
+        margin-left: 100px;
         
         color: #ffff;
         width: 400px;
@@ -120,7 +140,7 @@ p{
 }
 
 /* Media query for screens with a width between 601 and 768 pixels */
-@media screen and (min-width: 808px) and (max-width: 400px) {
+@media screen and (min-width: 602px) and (max-width: 602px) {
     .cont{
         height: 2000px;
         background-color: #202C36;
@@ -128,14 +148,21 @@ p{
     
     }
     .cardswrappwr{
+        display: flex;
+        flex-direction: column;
+       
+        
        
     }
     .boxes{
+        display: flex;
+        flex-direction: column;
+       
       
     }
     .card{
         width: 264px;
-        height: 336px;
+        height: 206px;
         background-color: #2B3844;
     }
     input{
